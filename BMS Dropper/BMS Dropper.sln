@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS Dropper.CSharp.Plugins", "BMS Dropper.CSharp.Plugins.csproj", "{9BD1C69B-705A-91A4-A1DD-71761F01C561}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS Dropper.Plugins", "BMS Dropper.Plugins.csproj", "{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS Dropper.CSharp", "BMS Dropper.CSharp.csproj", "{FB8EC83E-D478-BC5D-8D0D-F606DF8F4309}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS Dropper", "BMS Dropper.csproj", "{E826FB5A-8DEE-96D5-83D4-977111906226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BD1C69B-705A-91A4-A1DD-71761F01C561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BD1C69B-705A-91A4-A1DD-71761F01C561}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BD1C69B-705A-91A4-A1DD-71761F01C561}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BD1C69B-705A-91A4-A1DD-71761F01C561}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB8EC83E-D478-BC5D-8D0D-F606DF8F4309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB8EC83E-D478-BC5D-8D0D-F606DF8F4309}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB8EC83E-D478-BC5D-8D0D-F606DF8F4309}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB8EC83E-D478-BC5D-8D0D-F606DF8F4309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E826FB5A-8DEE-96D5-83D4-977111906226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E826FB5A-8DEE-96D5-83D4-977111906226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E826FB5A-8DEE-96D5-83D4-977111906226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E826FB5A-8DEE-96D5-83D4-977111906226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
