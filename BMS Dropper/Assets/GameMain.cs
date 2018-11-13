@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 using MiniJSON;
 
 public class GameMain : MonoBehaviour {
 
-    private string assetName = "out";
-    private double bpm = 150;
+    private readonly string assetName = "out";
+    private readonly double bpm = 150;
     private int inote = 0;
     private IList notes;
 
@@ -24,7 +23,7 @@ public class GameMain : MonoBehaviour {
         BGM.playOnAwake = false;
         BGM.clip = (AudioClip)Resources.Load("DYNAMITE RAVE");
 
-         v = GameObject.Find("Bar").transform.position;
+        v = GameObject.Find("Bar").transform.position;
         RedNote = (GameObject)Resources.Load("Rednote");
         WhiteNote = (GameObject)Resources.Load("WhiteNote");
         BlueNote = (GameObject)Resources.Load("BlueNote");
@@ -33,10 +32,11 @@ public class GameMain : MonoBehaviour {
         TextAsset asset = (TextAsset)Resources.Load(assetName);
         string json = asset.text;
         notes = (IList)Json.Deserialize(json);
-        StartCoroutine(load());
+        StartCoroutine(Load());
         
     }
-	IEnumerator load()
+
+    private IEnumerator Load()
     {
         yield return new WaitForSeconds(3.1f);
         BGM.Play();

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS Dropper.Plugins", "BMS Dropper.Plugins.csproj", "{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}"
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{76D8F2E9-1EAD-D3D8-F593-1211BFA3637C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMS Dropper", "BMS Dropper.csproj", "{E826FB5A-8DEE-96D5-83D4-977111906226}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{74C28223-9BE5-1516-F03A-719A7C04820E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEFDE62F-97A6-A980-1585-DA6AC26A8B13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E826FB5A-8DEE-96D5-83D4-977111906226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E826FB5A-8DEE-96D5-83D4-977111906226}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E826FB5A-8DEE-96D5-83D4-977111906226}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E826FB5A-8DEE-96D5-83D4-977111906226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D8F2E9-1EAD-D3D8-F593-1211BFA3637C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D8F2E9-1EAD-D3D8-F593-1211BFA3637C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D8F2E9-1EAD-D3D8-F593-1211BFA3637C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D8F2E9-1EAD-D3D8-F593-1211BFA3637C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C28223-9BE5-1516-F03A-719A7C04820E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C28223-9BE5-1516-F03A-719A7C04820E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C28223-9BE5-1516-F03A-719A7C04820E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C28223-9BE5-1516-F03A-719A7C04820E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
