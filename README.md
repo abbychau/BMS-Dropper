@@ -1,5 +1,9 @@
 # BMS-Dropper
 
-Click here for the Demo.
-[![Youtube demo](https://img.youtube.com/vi/8FmaAaSxUaM/0.jpg)](https://www.youtube.com/watch?v=8FmaAaSxUaM)
+Parsing BMS map, converting to Json, loading it dynamically in Unity.
+
+![Youtube demo](https://img.youtube.com/vi/8FmaAaSxUaM/0.jpg)
+
+Click [here](https://www.youtube.com/watch?v=8FmaAaSxUaM) for the Demo.
+
 
